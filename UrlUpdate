@@ -1,6 +1,7 @@
 {
-  "Version": "1.0.2",
-  "ReleaseNotes": "",
+{
+  "Version": "1.0.3",
+  "ReleaseNotes": "Atualização com melhorias ✔️",
   "UrlUpdate": "https://raw.githubusercontent.com/CoutyCT/SSH/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/CoutyCT/SSH/main/UrlSms",
   "EmailFeedback": "kiri@gmail.com",
@@ -12,22 +13,10 @@
     {
       "Porta": "7300"
     },
-    {
-      "Porta": "7400"
-    },
-    {
-      "Porta": "7500"
-    },
-    {
-      "Porta": "7600"
-    },
-    {
-      "Porta": "7700"
-    }
   ],
   "Servers": [
     {
-      "Name": "Servidor | PLUS",
+      "Name": "Servidor FÊNIX NETv34| BR01 🚀",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "4g.sshct.online",
@@ -37,43 +26,32 @@
       "USER": "",
       "PASS": ""
     },
-    {
-      "Name": "Servidor 02 | PLUS",
-      "TYPE": "off",
-      "FLAG": "br.png",
-      "ServerIP": "br09.vpn-ssh.ml",
-      "CheckUser": "http://4g.sshct.online:5555/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    }
   ],
   "Networks": [
     {
-      "Name": "VIVO e TIM 01",
+      "Name": "Operadora VIVO 01 🟣",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br09.vpn-ssh.ml[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "4g.sshct.online",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
+      "Payload": "GET ws://celular.vivo.com.br HTTP/1.1\nHost: 4g.sshct.online\nUpgrade: ws\n\n",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "celular.vivo.com.br",
+      "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Proxy"
+      "Info": "Tlsws"
     },
     {
-      "Name": "Universal 02",
+      "Name": "Operadora VIVO 02 🟣",
       "FLAG": "vivo",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "4g.sshct.online",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.3\nHost: 4g.sshct.online\nUpgrade: ws\n\n",
+      "SNI": "",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Proxy"
+      "Info": "Tlsws"
     },
     {
-      "Name": "TIM PROXY 01",
-      "FLAG": "tim",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Name": "Operadora VIVO 03 🟣",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
@@ -81,49 +59,19 @@
       "Info": "Proxy"
     },
     {
-      "Name": "TIM TLS 02",
+      "Name": "Operadora TIM E VIVO 01 🔵",
       "FLAG": "tim",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM TLS 03",
-      "FLAG": "tim",
-      "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "m.timbancavirtual.com.br",
-      "TlsIP": "m.timbancavirtual.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM TLS 04",
-      "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.3\nHost: 4g.sshct.online\nUpgrade: ws\n\n",
       "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "cdnjs.cloudflare.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM TLS 05",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
       "TlsIP": "104.16.19.94",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 01",
-      "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "Name": "Operadora TIM 02 🔵",
+      "FLAG": "tim",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: 4g.sshct.online\nUpgrade: WebSocket\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
@@ -131,73 +79,64 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 02",
+      "Name": "Operadora TIM 03 🔵",
+      "FLAG": "tim",
+      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]X-Forward-Host: 4g.sshct.online[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+    "Name": "Operadora CLARO 01 🔴",
       "FLAG": "claro",
-      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "Payload": "GET ws:// chaveiroclaro.com.br HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "chaveiroclaro.com.br",
+      "TlsIP": "chaveiroclaro.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "Operadora CLARO 02 🔴",
+      "FLAG": "claro",
+      "Payload": "GET ws:// parceirosclaro.com.br/ HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "parceirosclaro.com.br",
       "TlsIP": "parceirosclaro.com.br",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO SSL 03",
+      "Name": "Universal CLARO 03 🔴",
       "FLAG": "claro",
-      "Payload": "",
-      "SNI": "dns.web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 04",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.waze.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 05",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 06",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.twitter.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "OI PROXY 01",
-      "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "OI TLS 02",
-      "FLAG": "oi",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "Payload": "GET ws:// mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "Operadora Claro teste 01 🟡",
+      "FLAG": "claro",
+      "Payload": "GET ws://fozrioclaro.com.br HTTP/1.1\nHost: 4g.sshct.online\nUpgrade: ws\n\n
+",
+      "SNI": "fozrioclaro.com.br",
+      "TlsIP": "fozrioclaro.com.br",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+    "Name": "Operadora OI 02 v18 🟡",
+      "FLAG": "oi",
+      "Payload": "GET /? HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "fozrioclaro.com.br",
+      "TlsIP": "fozrioclaro.com.br",
+      "ProxyIP": "104.16.57.6",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     }
   ]

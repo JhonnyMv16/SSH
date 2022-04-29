@@ -54,21 +54,21 @@
       "Name": "VIVO e TIM 01",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
+      "SNI": "4g.sshct.online",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
+      "ProxyPort": "443",
       "Info": "Proxy"
     },
     {
-      "Name": "Universal02",
+      "Name": "Universal 02",
       "FLAG": "vivo",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
+      "SNI": "4g.sshct.online",
+      "TlsIP": "",
+      "ProxyIP": "104.18.7.80",
+      "ProxyPort": "443",
+      "Info": "Proxy"
     },
     {
       "Name": "TIM PROXY 01",

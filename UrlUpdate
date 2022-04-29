@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/CoutyCT/SSH/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/CoutyCT/SSH/main/UrlSms",
@@ -39,9 +39,9 @@
     },
     {
       "Name": "Servidor 02 | PLUS",
-      "TYPE": "OFF",
+      "TYPE": "off",
       "FLAG": "br.png",
-      "ServerIP": "4g.sshct.online",
+      "ServerIP": "br09.vpn-ssh.ml",
       "CheckUser": "http://4g.sshct.online:5555/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -53,7 +53,7 @@
     {
       "Name": "VIVO e TIM 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br09.vpn-ssh.ml[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "4g.sshct.online",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
@@ -66,7 +66,7 @@
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "4g.sshct.online",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "ProxyIP": "104.16.56.6",
       "ProxyPort": "443",
       "Info": "Proxy"
     },

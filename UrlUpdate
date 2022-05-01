@@ -1,6 +1,5 @@
 {
-{
-  "Version": "1.0.3",
+  "Version": "1.0.9",
   "ReleaseNotes": "Atualização com melhorias ✔️",
   "UrlUpdate": "https://raw.githubusercontent.com/CoutyCT/SSH/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/CoutyCT/SSH/main/UrlSms",
@@ -16,7 +15,7 @@
   ],
   "Servers": [
     {
-      "Name": "Servidor FÊNIX NETv34| BR01 🚀",
+      "Name": "Servidor| BR01 🚀",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "4g.sshct.online",
@@ -29,7 +28,7 @@
   ],
   "Networks": [
     {
-      "Name": "Operadora VIVO 01 🟣",
+      "Name": "VIVO 01 🟣",
       "FLAG": "vivo",
       "Payload": "GET ws://celular.vivo.com.br HTTP/1.1\nHost: 4g.sshct.online\nUpgrade: ws\n\n",
       "SNI": "celular.vivo.com.br",
@@ -39,7 +38,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "Operadora VIVO 02 🟣",
+      "Name": "VIVO 02 🟣",
       "FLAG": "vivo",
       "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.3\nHost: 4g.sshct.online\nUpgrade: ws\n\n",
       "SNI": "",
@@ -49,7 +48,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "Operadora VIVO 03 🟣",
+      "Name": "VIVO 03 🟣",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -59,7 +58,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "Operadora TIM E VIVO 01 🔵",
+      "Name": "TIM E VIVO 01 🔵",
       "FLAG": "tim",
       "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.3\nHost: 4g.sshct.online\nUpgrade: ws\n\n",
       "SNI": "cdnjs.cloudflare.com",
@@ -69,7 +68,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "Operadora TIM 02 🔵",
+      "Name": "TIM 02 🔵",
       "FLAG": "tim",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: 4g.sshct.online\nUpgrade: WebSocket\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -79,7 +78,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "Operadora TIM 03 🔵",
+      "Name": "TIM 03 🔵",
       "FLAG": "tim",
       "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]X-Forward-Host: 4g.sshct.online[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -89,7 +88,7 @@
       "Info": "Tlsws"
     },
     {
-    "Name": "Operadora CLARO 01 🔴",
+    "Name": "CLARO 01 🔴",
       "FLAG": "claro",
       "Payload": "GET ws:// chaveiroclaro.com.br HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "chaveiroclaro.com.br",
@@ -99,7 +98,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "Operadora CLARO 02 🔴",
+      "Name": "CLARO 02 🔴",
       "FLAG": "claro",
       "Payload": "GET ws:// parceirosclaro.com.br/ HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "parceirosclaro.com.br",
@@ -119,7 +118,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "Operadora Claro teste 01 🟡",
+      "Name": "Claro teste 01 🟡",
       "FLAG": "claro",
       "Payload": "GET ws://fozrioclaro.com.br HTTP/1.1\nHost: 4g.sshct.online\nUpgrade: ws\n\n
 ",
@@ -130,7 +129,7 @@
       "Info": "Tlsws"
     },
     {
-    "Name": "Operadora OI 02 v18 🟡",
+    "Name": "OI 02 v18 🟡",
       "FLAG": "oi",
       "Payload": "GET /? HTTP/1.1[crlf]Host: 4g.sshct.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "fozrioclaro.com.br",

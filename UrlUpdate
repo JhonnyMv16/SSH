@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.14",
+  "Version": "1.1.15",
   "ReleaseNotes": "Atualização com melhorias ✔️",
   "UrlUpdate": "https://raw.githubusercontent.com/JhonnyMv16/SSH/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/JhonnyMv16/SSH/main/UrlSms",
@@ -15,7 +15,7 @@
   ],
   "Servers": [
     {
-      "Name": "Servidor| BR01 🚀",
+      "Name": "Servidor| BETA 🚀",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "winner.ga",

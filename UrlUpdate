@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.13",
+  "Version": "1.1.14",
   "ReleaseNotes": "Atualização com melhorias ✔️",
   "UrlUpdate": "https://raw.githubusercontent.com/JhonnyMv16/SSH/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/JhonnyMv16/SSH/main/UrlSms",
@@ -15,11 +15,11 @@
   ],
   "Servers": [
     {
-      "Name": "Servidor| BETA 🚀",
+      "Name": "Servidor| BR01 🚀",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "4g.sshct.online",
-      "CheckUser": "http://4g.sshct.online:5454/checkUser",
+      "ServerIP": "winner.ga",
+      "CheckUser": "http://winner.ga:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",

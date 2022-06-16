@@ -19,7 +19,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "winner.ga",
-      "CheckUser": "http://winner.ga:5454/checkUser",
+      "CheckUser": "http://129.159.53.189:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",

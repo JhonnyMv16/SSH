@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/JhonnyMv16/SSH/main/UrlUpdate",
   "Sms": "",
@@ -19,39 +19,6 @@
       "FLAG": "br.png",
       "ServerIP": "winner.ga",
       "CheckUser": "http://winner.ga:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR | Br 02",
-      "TYPE": "free",
-      "FLAG": "br.png",
-      "ServerIP": "winner.ga",
-      "CheckUser": "http://winner.ga:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR | Br 03",
-      "TYPE": "free",
-      "FLAG": "br.png",
-      "ServerIP": "winner.ga",
-      "CheckUser": "http://winner.ga:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR | Br 04",
-      "TYPE": "free",
-      "FLAG": "br.png",
-      "ServerIP": "winner.ga",
-      "CheckUser": "http://winner.ga:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",

@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.10",
+  "Version": "1.0.11",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/JhonnyMv16/SSH/main/UrlUpdate",
   "Sms": "",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR | Br 01",
+      "Name": "SERVIDOR | BR 01",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "newthor.fabiomaster.online",

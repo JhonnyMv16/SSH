@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/JhonnyMv16/SSH/main/UrlUpdate",
   "Sms": "",
@@ -17,8 +17,8 @@
       "Name": "SERVIDOR | Br 01",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "winner.ga",
-      "CheckUser": "",
+      "ServerIP": "144.22.193.25",
+      "CheckUser": "http://144.22.193.25:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",

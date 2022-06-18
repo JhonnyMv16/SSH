@@ -6,7 +6,7 @@
   "EmailFeedback": "",
   "UrlContato": "",
   "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
-  "CheckUser": "false",
+  "CheckUser": "true",
   "Udp": [
     {
       "Porta": "7300"

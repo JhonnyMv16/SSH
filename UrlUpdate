@@ -1,8 +1,8 @@
 {
-  "Version": "1.0.17",
+  "Version": "1.0.18",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/JhonnyMv16/SSH/main/UrlUpdate",
-  "Sms": "",
+  "Sms": "https://raw.githubusercontent.com/JhonnyMv16/SSH/main/UrlSms",
   "EmailFeedback": "",
   "UrlContato": "",
   "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",

@@ -24,6 +24,17 @@
       "USER": "",
       "PASS": ""
     },
+    {
+      "Name": "Servidor| BR02 🚀",
+      "TYPE": "free",
+      "FLAG": "br.png",
+      "ServerIP": "winner.ga",
+      "CheckUser": "http://144.22.139.82:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "free",
+      "PASS": "12345"
+    },
   ],
   "Networks": [
     {

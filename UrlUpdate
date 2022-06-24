@@ -127,7 +127,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔴CLARO [05],
+      "Name": "🔴CLARO [05]",
       "FLAG": "claro",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "content.akross.com.br",

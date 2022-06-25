@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.3",
+  "Version": "2.0.4",
   "ReleaseNotes": "Atualização com melhorias ✔️",
   "UrlUpdate": "https://raw.githubusercontent.com/JhonnyMv16/SSH/main/UrlUpdate",
   "Sms": "https://bitbin.it/0ztSHHaE/raw/",
@@ -27,7 +27,7 @@
   ],
   "Networks": [
     {
-      "Name": "CLARO FULL",
+      "Name": "🔴CLARO FULL",
       "FLAG": "claro",
       "Payload": "GET ws://www.icanhazip.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "www.icanhazip.com",

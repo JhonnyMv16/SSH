@@ -37,7 +37,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "OPERADORA TIM",
+      "Name": "🔵TIM",
       "FLAG": "tim",
       "Payload": "GET ws://materiais.alura.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "materiais.alura.com.br",
@@ -47,7 +47,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO UPGRADE",
+      "Name": "🟣VIVO UPGRADE",
       "FLAG": "vivo",
       "Payload": "GET wss://api.bitso.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "api.bitso.com",
@@ -57,7 +57,7 @@
       "Info": "Tlsws"
     },
 {
-      "Name": "VIVO TURBO!",
+      "Name": "🟣VIVO TURBO",
       "FLAG": "vivo",
       "Payload": "GET wss://onepiece.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "onepiece.com",
@@ -67,7 +67,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TOP",
+      "Name": "🔴CLARO TOP",
       "FLAG": "claro",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "content.akross.com.br",
